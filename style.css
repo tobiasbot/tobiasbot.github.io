@@ -70,7 +70,7 @@ span.b
 }
 #invite:hover 
 {
-    background-color: #4200C8;
+    background-color: #292965;
 }
 span.c
 {
@@ -157,7 +157,7 @@ span.f
 #features
 {
     background-color: #34343b;
-    padding: 3vw 0 0 0;
+    padding: 3vw 0 3vw 0;
     text-align: center;
     display: grid;
 }
@@ -172,7 +172,7 @@ span.g
     -webkit-text-fill-color: transparent;
     letter-spacing: 3%;
     font-family: Montserrat, sans-serif;
-    font-size: 3vw;
+    font-size: 4vw;
 }
 #fbox
 {
@@ -221,4 +221,41 @@ span.j
     margin-left: 5vw;
     margin-top: 5vw;
     position: absolute;
+}
+#feature
+{
+    color: white;
+    border: 0;
+    font-family: Montserrat, sans-serif;
+    width: 44%;
+}
+#feature i
+{
+    font-size: 8vw;
+}
+#feature, #list3
+{
+    float: left;
+    margin: auto;
+    width: auto;
+    text-align: center;
+    padding: 2vw 4vw;
+}
+#feature h1
+{
+    font-size: 2.5vw;
+    margin: 1vw;
+    width: auto;
+}
+#features.b
+{
+    margin: 0;
+    padding: 0;
+    background-color: #29292e;
+}
+#feature p
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4vw;
+    margin: 0;
 }
