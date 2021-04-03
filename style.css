@@ -225,27 +225,28 @@ span.j
 #feature
 {
     color: white;
-    border: 0;
     font-family: Montserrat, sans-serif;
-    width: 44%;
+    float: left;
 }
 #feature i
 {
-    font-size: 8vw;
+    font-size: 5vw;
+    float: left;
+    margin-right: 4vw;
 }
-#feature, #list3
+#feature
 {
     float: left;
-    margin: auto;
-    width: auto;
-    text-align: center;
     padding: 2vw 4vw;
+    align-items: center;
+    display: flex;
+    margin: 0 10% 0 25%;
 }
 #feature h1
 {
     font-size: 2.5vw;
-    margin: 1vw;
-    width: auto;
+    margin: 0;
+    float: left;
 }
 #features.b
 {
