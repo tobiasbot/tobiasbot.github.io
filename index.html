@@ -1,0 +1,173 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tobias - A multifunctional discord bot</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="favicon.png" type="image">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <script>
+            function chbg(color) {
+                document.getElementById('list').style.backgroundColor = color;
+            }   
+        </script>
+        <script src="https://kit.fontawesome.com/a199f15739.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                <img class="a" src="favicon.png"/>
+            </a>
+            <span class="c">TOBIAS v4.1 <br /><span class="f">by CheryX#2137</span></span>
+            <span class="a"> </span>
+            <a href="#list"><div id="button" onmouseover="chbg('#7676b4')" onmouseout="chbg('#424270')">Command list</div></a>
+            <a href="https://discord.com/oauth2/authorize?client_id=741352621826375781&permissions=280646&scope=bot%20applications.commands" class="container css-transitions-only-after-page-load"><div id="invite">Invite the bot</div></a>
+            <span class="b"> </span>
+        </header>
+        <script>
+            $(document).ready(function () {
+                $(".css-transitions-only-after-page-load").each(function (index, element) {
+                    setTimeout(function () { $(element).removeClass("css-transitions-only-after-page-load") }, 10);
+                });
+            });
+            $('.count').each(function () {
+                $(this).prop('Counter',0).animate({
+                    Counter: $(this).text()
+                }, {
+                    duration: 4000,
+                    easing: 'swing',
+                    step: function (now) {
+                        $(this).text(Math.ceil(now));
+                    }
+                });
+            });
+        </script>
+        <article>
+            <div id="left_article">
+                <span class="e">Assistant</span> <span class="d">Tobias</span>
+                <a href="https://discord.com/oauth2/authorize?client_id=741352621826375781&permissions=280646&scope=bot%20applications.commands">
+                    <div id="invite">
+                            Invite the bot
+                    </div>
+                    <div id="stat">
+                        <div id="stats">
+                            <b>20+</b><br /><span class="j">servers</span>
+                        </div>
+                        <div id="stats">
+                            <b>500+</b><br /><span class="j">users</span>
+                        </div>
+                        <div id="stats">
+                            <b>20+</b><br /><span class="j">functions</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div id="list">
+                Commands list
+                <table>
+                    <tr>
+                        <th>
+                            Command
+                        </th>
+                        <th>
+                            Usage
+                        </th>
+                        <th>
+                            Description
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>8-Ball</th>
+                        <th>/8ball (question)</th>
+                        <th>Anwsers all your questions...</th>
+                    </tr>
+                    <tr>
+                        <th>Ban</th>
+                        <th>/ban (member) (reason)</th>
+                        <th>Bans member from the server</th>
+                    </tr>
+                    <tr>
+                        <th>Bedwars</th>
+                        <th>/bedwars (nick)</th>
+                        <th>Check someone stats on hypixel!</th>
+                    </tr>
+                    <tr>
+                        <th>Covid</th>
+                        <th>/covid (country)</th>
+                        <th>Check todays data for Covid-19.</th>
+                    </tr>
+                    <tr>
+                        <th>Giveaway</th>
+                        <th>/giveaway (time) (prize)</th>
+                        <th>Create a giveaway</th>
+                    </tr>
+                    <tr>
+                        <th>Guess</th>
+                        <th>/guess (number)</th>
+                        <th>A simple guess-the-number game!</th>
+                    </tr>
+                    <tr>
+                        <th>Help</th>
+                        <th>/help</th>
+                        <th>Shows help menu.</th>
+                    </tr>
+                    <tr>
+                        <th>Kick</th>
+                        <th>/kick (member) (reason)</th>
+                        <th>Kicks member from the server</th>
+                    </tr>
+                    <tr>
+                        <th>Percent</th>
+                        <th>/percent (trait) (object)</th>
+                        <th>Rates personality.</th>
+                    </tr>
+                    <tr>
+                        <th>Poll</th>
+                        <th>/poll (title) (options...)</th>
+                        <th>Creates poll.</th>
+                    </tr>
+                    <tr>
+                        <th>Purge</th>
+                        <th>/purge (int) (channel)</th>
+                        <th>Purges chat.</th>
+                    </tr>
+                    <tr>
+                        <th>Rate</th>
+                        <th>/rate (object)</th>
+                        <th>Rates object.</th>
+                    </tr>
+                    <tr>
+                        <th>RNG</th>
+                        <th>/rng (words)</th>
+                        <th>Random Number Generator</th>
+                    </tr>
+                    <tr>
+                        <th>Server</th>
+                        <th>/server</th>
+                        <th>Check info about server.</th>
+                    </tr>
+                    <tr>
+                        <th>Skywars</th>
+                        <th>/skywars (nick)</th>
+                        <th>Check someone stats on hypixel!</th>
+                    </tr>
+                    <tr>
+                        <th>User</th>
+                        <th>/user (user)</th>
+                        <th>Check info about user.</th>
+                    </tr>
+                </table>
+            </div>
+        </article>
+<!--
+        <div id="features">
+            <span class="g">
+            Features
+            </span>
+        </div>
+-->
+    </body>
+</html>
