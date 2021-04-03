@@ -260,3 +260,16 @@ span.j
     font-size: 1.4vw;
     margin: 0;
 }
+section
+{
+    background-color: #393943;
+}
+section a
+{
+    text-decoration: underline;
+    color: #afa3e6 ;
+}
+section a:hover
+{
+    cursor: pointer;
+}
