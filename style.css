@@ -315,6 +315,14 @@ img.c
 {
     width: 70%;
 }
+img.d
+{
+    width: 45%;
+}
+img.e
+{
+    width: 55%;
+}
 footer
 {
     display: flex;
