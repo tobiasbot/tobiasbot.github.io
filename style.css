@@ -154,25 +154,9 @@ span.f
 {
     font-size: 0.8vw;
 }
-#features
-{
-    background-color: #34343b;
-    padding: 3vw 0 3vw 0;
-    text-align: center;
-    display: grid;
-}
 html
 {
     scroll-behavior: smooth;
-}
-span.g
-{
-    background: -webkit-linear-gradient(#ffffff, #bdbdbd);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    letter-spacing: 3%;
-    font-family: Montserrat, sans-serif;
-    font-size: 4vw;
 }
 #fbox
 {
@@ -222,54 +206,72 @@ span.j
     margin-top: 5vw;
     position: absolute;
 }
-#feature
+header h1
 {
-    color: white;
+    background: -webkit-linear-gradient(#ffffff, #bdbdbd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 3%;
     font-family: Montserrat, sans-serif;
+    font-size: 4vw;
     float: left;
+    text-align: center;
+}
+#features
+{
+    display: flex;
+}
+header.b
+{
+    float: left;
+    padding: 7%;
+}
+#f_list
+{
+    background-color: #34343b;
+    float: left;
+    width: 100%;
 }
 #feature i
 {
-    font-size: 5vw;
     float: left;
-    margin-right: 4vw;
+    font-size: 5vw;
+    margin-right: 2%;
+}
+#description
+{
+    float: left;
+}
+#description h1
+{
+    margin: 0;
+    font-size: 2vw;
+    font-family: Montserrat, sans-serif;
+}
+#description p
+{
+    margin: 0;
+    font-size: 1.5vw;
+    font-family: 'Roboto', sans-serif;
 }
 #feature
 {
-    float: left;
-    padding: 2vw 4vw;
     align-items: center;
     display: flex;
-    margin: 0 10% 0 25%;
+    color: white;
+    margin: 5% 18%;
+
 }
-#feature h1
+::-webkit-scrollbar
 {
-    font-size: 2.5vw;
-    margin: 0;
-    float: left;
+  width: 0.8vw;
 }
-#features.b
+::-webkit-scrollbar-track
 {
-    margin: 0;
-    padding: 0;
-    background-color: #29292e;
+  background: #62666b; 
 }
-#feature p
+::-webkit-scrollbar-thumb
 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.4vw;
-    margin: 0;
-}
-section
-{
-    background-color: #393943;
-}
-section a
-{
-    text-decoration: underline;
-    color: #afa3e6 ;
-}
-section a:hover
-{
-    cursor: pointer;
+  background: #28262E;
+  border-radius: 2vw;
 }
