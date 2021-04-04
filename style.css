@@ -148,7 +148,7 @@ td, th
 }
 tr:nth-child(even)
 {
-    background-color: #00000062;
+    background-color: #0000001a;
 }
 span.f
 {
@@ -206,6 +206,7 @@ span.j
     margin-top: 5vw;
     position: absolute;
 }
+
 header h1
 {
     background: -webkit-linear-gradient(#ffffff, #bdbdbd);
@@ -221,6 +222,7 @@ header h1
 {
     display: flex;
 }
+
 header.b
 {
     float: left;
@@ -268,10 +270,87 @@ header.b
 }
 ::-webkit-scrollbar-track
 {
-  background: #62666b; 
+  background: #45494e; 
 }
 ::-webkit-scrollbar-thumb
 {
   background: #28262E;
-  border-radius: 2vw;
+  border-radius: 0.4vw;
+}
+#description a
+{
+    color:#9191bb;
+    text-decoration: underline dotted;
+    cursor: help;
+}
+header.c
+{
+    background-color: #00000000;
+    display: grid;
+    padding: 2vw 0;
+}
+header.c h1
+{
+    display: inline;
+    padding: 0;
+    margin: 0;
+    padding: 0;
+}
+#images img
+{
+    float: left;
+}
+#gallery
+{
+    margin: auto;
+    width: 80%;
+}
+img.b
+{
+    width: 30%;
+}
+img.c
+{
+    width: 70%;
+}
+footer
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-size: 2.5vw;
+    font-family: Montserrat, sans-serif;
+    color: #c8c2ff;
+    padding: 1.5% 0 1.5% 7%;
+    background-color: #28262e;
+}
+footer h1
+{
+    background: -webkit-linear-gradient(#ffffff, #bdbdbd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 3%;
+    font-family: Montserrat, sans-serif;
+    font-size: 4vw;
+    float: left;
+    text-align: center;
+}
+footer.b
+{
+    float: left;
+    padding: 7%;
+}
+li, li a
+{
+    color:#cbcbe9;
+    text-decoration: underline;
+    font-size: 1vw;
+}
+ul
+{
+    margin: 0;
+}
+span.fb
+{
+    margin-right: 16%;
 }
