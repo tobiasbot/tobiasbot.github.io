@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@100&display=swap');
+
 body
 {
     margin: 0;
@@ -109,10 +111,9 @@ span.d
 }
 #list
 {
-    margin: 0 0 2.4vw 11vw;
+    margin: 0 0 2.4vw 7vw;
     float: left;
     background-color: #424270;
-    border: 0.1vw solid #8678c5;
     border-radius: 2vw;
     color: white;
     font-family: Montserrat, sans-serif;
@@ -137,42 +138,26 @@ table
     font-family: arial, sans-serif;
     border-collapse: collapse;
 }
-td, th
+td, th, tr
 {
     padding: 0.2vw;
     text-align: left;
     color: white;
     font-family: 'Roboto', sans-serif;
-    margin-right: 0.2vw;
+    padding-right: 2vw;
     font-size: 1vw;
 }
 tr:nth-child(even)
 {
-    background-color: #00000062;
+    background-color: #0000001a;
 }
 span.f
 {
     font-size: 0.8vw;
 }
-#features
-{
-    background-color: #34343b;
-    padding: 3vw 0 3vw 0;
-    text-align: center;
-    display: grid;
-}
 html
 {
     scroll-behavior: smooth;
-}
-span.g
-{
-    background: -webkit-linear-gradient(#ffffff, #bdbdbd);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    letter-spacing: 3%;
-    font-family: Montserrat, sans-serif;
-    font-size: 4vw;
 }
 #fbox
 {
@@ -208,8 +193,8 @@ span.i
 }
 span.j
 {
-    font-size: 1.2vw;
-    color: #7a7a8b;
+    font-size: 1.4vw;
+    color: #bebed3;
 }
 #stats
 {
@@ -222,41 +207,188 @@ span.j
     margin-top: 5vw;
     position: absolute;
 }
-#feature
+
+header h1
 {
-    color: white;
+    background: -webkit-linear-gradient(#ffffff, #bdbdbd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 3%;
     font-family: Montserrat, sans-serif;
+    font-size: 4vw;
     float: left;
+    text-align: center;
+}
+#features
+{
+    display: flex;
+}
+
+header.b
+{
+    float: left;
+    padding: 7%;
+}
+#f_list
+{
+    background-color: #34343b;
+    float: left;
+    width: 100%;
 }
 #feature i
 {
-    font-size: 5vw;
     float: left;
-    margin-right: 4vw;
+    font-size: 5vw;
+    margin-right: 2%;
+}
+#description
+{
+    float: left;
+}
+#description h1
+{
+    margin: 0;
+    font-size: 2vw;
+    font-family: Montserrat, sans-serif;
+}
+#description p
+{
+    margin: 0;
+    font-size: 1.5vw;
+    font-family: 'Roboto', sans-serif;
 }
 #feature
 {
-    float: left;
-    padding: 2vw 4vw;
     align-items: center;
     display: flex;
-    margin: 0 10% 0 25%;
+    color: white;
+    margin: 5% 18%;
+
 }
-#feature h1
+::-webkit-scrollbar
 {
-    font-size: 2.5vw;
+  width: 0.8vw;
+  background: #45494e; 
+}
+::-webkit-scrollbar-thumb
+{
+  background: #28262E;
+}
+#description a
+{
+    text-decoration: underline dotted;
+    cursor: help;
+}
+header.c
+{
+    background-color: #00000000;
+    display: grid;
+    padding: 2vw 0;
+}
+header.c h1
+{
+    display: inline;
+    padding: 0;
     margin: 0;
+    padding: 0;
+}
+#images img
+{
     float: left;
+}
+#gallery
+{
+    margin: auto;
+    width: 80%;
+}
+img.b
+{
+    width: 30%;
+}
+img.c
+{
+    width: 70%;
+}
+img.d
+{
+    width: 45%;
+}
+img.e
+{
+    width: 55%;
+}
+footer
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-size: 2.5vw;
+    font-family: Montserrat, sans-serif;
+    color: #c8c2ff;
+    padding: 1.5% 0 1.5% 7%;
+    background-color: #28262e;
+}
+footer h1
+{
+    background: -webkit-linear-gradient(#ffffff, #bdbdbd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 3%;
+    font-family: Montserrat, sans-serif;
+    font-size: 4vw;
+    float: left;
+    text-align: center;
+}
+footer.b
+{
+    float: left;
+    padding: 7%;
+}
+ul
+{
+    margin: 0;
+}
+span.fb
+{
+    margin-right: 16%;
 }
 #features.b
 {
-    margin: 0;
-    padding: 0;
-    background-color: #29292e;
+    margin-top: 5%;
 }
-#feature p
+#features.b header.b
 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.4vw;
+    padding: 0 7%;
+}
+#feature.b
+{
+    margin: 5% 20%;
+}
+#feature.b i
+{
+    margin-right: 8%;
+}
+#change
+{
+    float: left;
+    width: 25%;
+    padding: 2%;
+    background-color: #181818;
+    border-radius: 3vw;
+    margin: 2%;
+}
+#change h1, #change p, #change ol, #change ul, #change li
+{
+    color: white;
+    font-size: 2vw;
     margin: 0;
+}
+#change p, #change ol, #change ul, #change li
+{
+    font-size: 1vw;
+    font-family: 'Roboto', sans-serif;
+}
+#changes
+{
+    margin: 0% 2%
 }
