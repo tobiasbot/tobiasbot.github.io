@@ -38,24 +38,6 @@
             <a href="https://discord.com/api/oauth2/authorize?client_id=741352621826375781&permissions=280646&scope=bot%20applications.commands" class="container css-transitions-only-after-page-load"><div id="invite">Invite the bot</div></a>
             <span class="b"> </span>
         </header>
-        <script>
-            $(document).ready(function () {
-                $(".css-transitions-only-after-page-load").each(function (index, element) {
-                    setTimeout(function () { $(element).removeClass("css-transitions-only-after-page-load") }, 10);
-                });
-            });
-            $('.count').each(function () {
-                $(this).prop('Counter',0).animate({
-                    Counter: $(this).text()
-                }, {
-                    duration: 4000,
-                    easing: 'swing',
-                    step: function (now) {
-                        $(this).text(Math.ceil(now));
-                    }
-                });
-            });
-        </script>
         <article>
             <div id="left_article">
                 <span class="e">Assistant</span> <span class="d">Tobias</span>
