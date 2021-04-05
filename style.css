@@ -265,14 +265,14 @@ header.b
     margin: 5% 18%;
 
 }
-::-webkit-scrollbar
-{
-  width: 0.8vw;
-  background: #45494e; 
+::-webkit-scrollbar{
+    width: 0.8vw;
+    background: #45494e; 
 }
-::-webkit-scrollbar-thumb
-{
-  background: #28262E;
+::-webkit-scrollbar-thumb{
+    background-color:#8e8e8e;
+    border: 0.2vw solid #424242;
+    border-radius:8px;
 }
 #description a
 {
