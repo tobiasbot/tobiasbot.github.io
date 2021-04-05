@@ -21,7 +21,7 @@
         <link rel="shortcut icon" href="favicon.png" type="image">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="apple-touch-icon image_src" href="apple_touch_icon.png">
-        <meta name="theme-color" content="#28262e"/>
+        <meta name="theme-color" content="#28262e">
         </script>
         <script src="https://kit.fontawesome.com/a199f15739.js" crossorigin="anonymous"></script>
     </head>
@@ -269,5 +269,14 @@
             <span class="a"> </span>
             <span class="fb"> </span>
         </footer>
+        <script>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+              // Use the window load event to keep the page load performant
+              window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js');
+              });
+            }
+        </script>
     </body>
 </html>
