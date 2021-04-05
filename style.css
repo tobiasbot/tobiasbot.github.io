@@ -111,10 +111,9 @@ span.d
 }
 #list
 {
-    margin: 0 0 2.4vw 11vw;
+    margin: 0 0 2.4vw 7vw;
     float: left;
     background-color: #424270;
-    border: 0.1vw solid #8678c5;
     border-radius: 2vw;
     color: white;
     font-family: Montserrat, sans-serif;
@@ -139,13 +138,13 @@ table
     font-family: arial, sans-serif;
     border-collapse: collapse;
 }
-td, th
+td, th, tr
 {
     padding: 0.2vw;
     text-align: left;
     color: white;
     font-family: 'Roboto', sans-serif;
-    margin-right: 0.2vw;
+    padding-right: 2vw;
     font-size: 1vw;
 }
 tr:nth-child(even)
@@ -269,15 +268,11 @@ header.b
 ::-webkit-scrollbar
 {
   width: 0.8vw;
-}
-::-webkit-scrollbar-track
-{
   background: #45494e; 
 }
 ::-webkit-scrollbar-thumb
 {
   background: #28262E;
-  border-radius: 0.4vw;
 }
 #description a
 {
@@ -349,12 +344,6 @@ footer.b
     float: left;
     padding: 7%;
 }
-li, li a
-{
-    color:#cbcbe9;
-    text-decoration: underline;
-    font-size: 1vw;
-}
 ul
 {
     margin: 0;
@@ -362,4 +351,44 @@ ul
 span.fb
 {
     margin-right: 16%;
+}
+#features.b
+{
+    margin-top: 5%;
+}
+#features.b header.b
+{
+    padding: 0 7%;
+}
+#feature.b
+{
+    margin: 5% 20%;
+}
+#feature.b i
+{
+    margin-right: 8%;
+}
+#change
+{
+    float: left;
+    width: 25%;
+    padding: 2%;
+    background-color: #181818;
+    border-radius: 3vw;
+    margin: 2%;
+}
+#change h1, #change p, #change ol, #change ul, #change li
+{
+    color: white;
+    font-size: 2vw;
+    margin: 0;
+}
+#change p, #change ol, #change ul, #change li
+{
+    font-size: 1vw;
+    font-family: 'Roboto', sans-serif;
+}
+#changes
+{
+    margin: 0% 2%
 }
