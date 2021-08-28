@@ -7,23 +7,104 @@
         <title>Assistant Tobias.</title>
 
         <link rel="stylesheet" href="style.css">
-        <script src="fa5.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
     </head>
     <body>
         <script src="main.js"></script>
         <div class="footer" id="footer">
-            <i class="far fa-exclamation-triangle", style="margin-right: 3px; font-size: 12pt;"></i>
+            <span class="material-icons-outlined" style="margin-right: 6px; font-size: 15pt;">info</span>
             Somebody once told me the world is gonna roll me, i aint the sharpest tool in the shed.
             <a class="button" href="readmore.html">
                 <i>
                     READ MORE
                 </i>
             </a>
-            
+
             <button class="remove" onclick="hide()">
-                <i class="fas fa-times"></i>
+                <span class="material-icons-outlined" style="font-size: 15pt; margin-top: 4px;">close</span>
             </button>
         </div>
-        work in progress lol
+        <header>
+            <img class="logo" src="tobias.png" alt="Tobias Logo">
+            <div id="title">
+                <h1 class="title">ASSISTANT TOBIAS</h1>
+                <p class="title">Wpisz tu jakieś bardzo fajne motto.</p>
+            </div>
+            <div id="items" class="large">
+                <a href="janek" class="buttonPage">
+                    <span class="material-icons-round" style="margin-right:2px;font-size:14pt;transform:translate(0, 4px);">space_dashboard</span>
+                    Dashboard
+                </a>
+                <a href="janek" class="buttonPage">
+                    <span class="material-icons-round" style="margin-right:2px;font-size:14pt;transform:translate(0, 4px);">toc</span>
+                    Command List
+                </a>
+                <a href="https://discord.com/oauth2/authorize?client_id=741352621826375781&permissions=8&scope=bot%20applications.commands" class="buttonPage">
+                    <span class="material-icons-round" style="margin-right:2px;font-size:14pt;transform:translate(0, 4px);">mail</span>
+                    Invite
+                </a>
+                <a href="https://discord.gg/gHBzHTr6JD" class="buttonPage">
+                    <span class="material-icons-round" style="margin-right:2px;font-size:14pt;transform:translate(0, 4px);">support</span>
+                    Support
+                </a>
+            </div>
+            <div id="items" class="small">
+                <button class="clear" onclick="toggledrop()">
+                    <span class="material-icons-round">expand_more</span>
+                </button>
+            </div>
+        </header>
+        <div id="dropdown">
+            <div>
+                <a href="janek" class="buttonPage">
+                    <span class="material-icons-round" style="margin-right:2px;font-size:14pt;transform:translate(0, 4px);">space_dashboard</span>
+                    Dashboard
+                </a>
+            </div>
+            <div>
+                <a href="janek" class="buttonPage">
+                    <span class="material-icons-round" style="margin-right:2px;font-size:14pt;transform:translate(0, 4px);">toc</span>
+                    Command List
+                </a>
+            </div>
+            <div>
+                <a href="https://discord.com/oauth2/authorize?client_id=741352621826375781&permissions=8&scope=bot%20applications.commands" class="buttonPage">
+                    <span class="material-icons-round" style="margin-right:2px;font-size:14pt;transform:translate(0, 4px);">mail</span>
+                    Invite
+                </a>
+            </div>
+            <div class="last">
+                <a href="https://discord.gg/gHBzHTr6JD" class="buttonPage">
+                    <span class="material-icons-round" style="margin-right:2px;font-size:14pt;transform:translate(0, 4px);">support</span>
+                    Support
+                </a>
+            </div>
+        </div>
+        <article>
+            <div id="left">
+                <div id="titleleft">
+                    <h1 class="title left">Assistant Tobias</h1>
+                    <h4 class="title left">Wpisz tu funkcje bota lub jego motto ktore zacheci ludzi aby zapraszali bota na swoje serwery.</h4>
+                
+                    <div id="buttons">
+                        <a class="buttonTitle invi" href="https://discord.com/oauth2/authorize?client_id=741352621826375781&permissions=8&scope=bot%20applications.commands">
+                            <span class="material-icons-round" style="margin-right:2px;font-size:14pt;transform:translate(0, 4px);">mail</span> Invite me
+                        </a>
+                        <br class="hidesmall">
+                        <br class="hidesmall">
+                        <br class="hidesmall">
+                        <a class="buttonTitle dash" href="dashboard">
+                            <span class="material-icons-round" style="margin-right:2px;font-size:14pt;transform:translate(0, 4px);">space_dashboard</span> Dashboard
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="right">
+                Cos tu bedzie...
+            </div>
+        </article>
+        <section id="gallery">
+            eeee
+        </section>
     </body>
 </html>

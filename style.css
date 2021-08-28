@@ -4,16 +4,16 @@ a {
     color: white;
     text-decoration: none;
 }
-
 body {
     margin: 0;
+    background-color: #22272E;
+    font-family: 'Open Sans', sans-serif;
 }
 div.footer {
     color:white;
     background: rgb(131,58,180);
     background: linear-gradient(90deg, rgb(171, 76, 235) 0%, rgb(255, 89, 89) 100%);
     padding: 5pt;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 9pt;
     display: flex;
@@ -28,6 +28,7 @@ div.footer {
     margin: 0 5px;
     font-size: 10pt;
     font-weight: 800;
+    width: 80px;
 }
 button.remove {
     color:white;
@@ -40,4 +41,152 @@ button.remove {
 }
 .hidden {
     display: none;
+}
+header
+{
+    background-color: #1E2228;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    border-radius: 50%;
+    width: 50px;
+    padding: 9px;
+    margin-left: 10%;
+}
+.title
+{
+    margin: -6px 0;
+}
+h1.title
+{
+    font-weight: 800;
+    font-size: 24px;
+    background: -webkit-linear-gradient(#eee, #999);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p.title
+{
+    font-weight: 600;
+    font-size: 10px;
+    color: #777
+}
+#items
+{
+    right: 0;
+    position: absolute;
+    margin-right: 10%;
+    display: flex;
+    
+}
+.buttonPage
+{
+    color: #ffffff99;
+    transition-duration: 0.3s;
+    margin-left: 30px;
+}
+.buttonPage:hover
+{
+    color: #ffffff;
+}
+#items.small
+{
+    color: #ffffff99;
+    transition-duration: 0.3s;
+}
+#items.small:hover
+{
+    color: #ffffff;
+}
+button.clear
+{
+    background: none;
+    border: none;
+    color: #ffffff99;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    transform:translate(0, 2px); 
+}
+button.clear:hover
+{
+    color: #ffffff;
+}
+#dropdown
+{
+    float: right;
+    display: none;
+    background-color:#1E2228;
+}
+#dropdown div
+{
+    padding: 7pt 12pt 7pt 1pt;
+}
+#left
+{
+    float:left;
+    width: 50%;
+}
+h1.left
+{
+    font-size:33pt;
+    background: -webkit-linear-gradient(#fff, #ccc);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+h4.left
+{
+    color:#bbb;
+    font-weight: 600;
+    font-size: 15pt;
+}
+#titleleft
+{
+    margin: 15% 0 0 23%;
+}
+#buttons
+{
+    margin: 40pt 0 100pt 0
+}
+.buttonTitle {
+    border-radius: 2px;
+    padding: 12px 24px;
+    margin: 5px 20px 0 0;
+    font-weight: 700;
+    white-space: nowrap;
+}
+.invi {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+.dash {
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+        
+}
+@media screen and (max-width: 1000px) {
+    #items.small, .hidesmall {
+        display: flex;
+    }
+    #items.large {
+        display: none;
+    }
+}
+@media screen and (min-width: 1000px) {
+    #items.small, .hidesmall {
+        display: none;
+    }
+    #items.large {
+        display: flex;
+    }
+}
+#gallery
+{
+    clear:both;
+    background-color: #1E2228;
+    padding: 200pt;
 }
